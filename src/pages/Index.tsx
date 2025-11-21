@@ -73,7 +73,7 @@ const Index = () => {
               <div className="flex justify-center">
                 <div
                   id="output-text"
-                  className="text-2xl h-16 flex items-center px-6 rounded-md bg-gradient-secondary text-secondary-foreground font-bold shadow-lg transition-all duration-300 w-fit"
+                  className="text-2xl h-16 flex items-center px-6 rounded-md bg-gradient-secondary text-secondary-foreground/50 font-normal shadow-lg transition-all duration-300 w-fit"
                   style={{
                     boxShadow: huzzified ? "var(--shadow-glow)" : "none",
                   }}
